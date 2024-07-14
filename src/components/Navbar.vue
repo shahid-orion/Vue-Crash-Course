@@ -29,7 +29,7 @@ const isActiveLink = (routePath) => {
                 to="/"
                 :class="`text-white ${
                   isActiveLink('/') ? 'bg-green-900' : ''
-                } hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`"
+                } hover:bg-green-900 hover:text-white rounded-md px-3 py-2`"
                 >Home
               </RouterLink>
               <RouterLink
